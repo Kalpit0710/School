@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>J. R. Preparatory School</title>
+  <meta name="title" content="J. R. Preparatory School">
+  <meta name="description" content="This is a school website made by kalpit">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./image2vector.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+  <link rel="stylesheet" href="./dist/output.css" />
+
+  <!-- Start - Fancybox Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">J. R. Preparatory School</p>
+  </div>
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Moh. Ganeshganj, Puranpur, 262122
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+91 8363655600" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 8363655600</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:jrpschool2008@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">jrpschool2008@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./image2vector.svg" width="100" height="100" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="gallery.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Photo Gallery</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#enquiry" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Moh. Ganeshganj, Puranpur,
+            Pilibhit, 262122
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:jrpschool2008@gmail.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Call us</p>
+
+          <a href="tel:+91 8363655600" class="body-1 contact-number hover-underline">
+            +91 8363655600
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#enquiry" class="btn btn-secondary">
+        <span class="text text-1">Admission Open</span>
+
+        <span class="text text-2" aria-hidden="true">Admission Open</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+            <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+            <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+            <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">Need of a Good School in Puranpur?</h2>
+
+            <p class="section-text">
+              <pre>
+              In the heart of Puranpur, amidst the bustling streets and vibrant culture, emerged a beacon of hope for
+              education seekers – J. R. Preparatory School. Established in 2008, our journey began with a simple yet
+              profound mission: to provide quality education in English medium, nurturing young minds to their fullest
+              potential.
+
+              Puranpur, a town known for its rich heritage and close-knit community, lacked a modern educational
+              institution that could cater to the evolving needs of students. Recognizing this gap, J. R. Preparatory
+              School was founded in Moh. Ganeshganj, with a commitment to excellence and a vision to transform lives
+              through education.
+
+              From humble beginnings, our school has grown into a trusted institution, esteemed by parents and cherished
+              by students. Our dedication to academic rigor, combined with a nurturing environment, has enabled us to
+              shape the future leaders of tomorrow.
+
+              At J. R. Preparatory School, we believe that education goes beyond textbooks and classrooms. We strive to
+              instill values of integrity, compassion, and resilience in our students, preparing them not only for
+              academic success but also for life's challenges.
+
+              Our curriculum is designed to foster holistic development, integrating modern teaching methodologies with
+              traditional wisdom. Through a blend of academics, sports, arts, and co-curricular activities, we encourage
+              creativity, critical thinking, and teamwork, empowering students to explore their passions and talents.
+
+              Central to our ethos is a strong sense of community and inclusivity. We embrace diversity and celebrate
+              the uniqueness of each individual, fostering an environment where every student feels valued and
+              supported.
+
+              As we reflect on our journey so far, we are filled with gratitude for the unwavering support of our
+              dedicated staff, committed parents, and enthusiastic students. Together, we have created a vibrant
+              learning community, where dreams take flight and aspirations turn into reality.
+
+              Looking ahead, we remain steadfast in our mission to provide a holistic educational experience that
+              inspires excellence, nurtures character, and ignites a lifelong love for learning. Join us as we continue
+              to write the next chapter of our story, one filled with promise, purpose, and endless possibilities.
+              Welcome to J. R. Preparatory School, where every child's journey begins with a dream and ends with
+              success.
+            </pre>
+            </p>
+
+            <div class="contact-label">Book A Call</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+91 8363655600</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <div class="abs-img abs-img-1 has-before">
+              <img src="./assets/images/Img2.jpg" width="285" height="285" loading="lazy" alt="" class="w-100">
+            </div>
+
+
+
+          </figure>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #enquiry
+      -->
+
+      <section class="enquiry aria-labelledby=" enquiry-label" id="enquiry">
+        <div class="container">
+
+          <div class="form enquiry-form bg-black-10">
+
+            <form id="galleryForm" class="form-left" action="https://formsubmit.co/jrpschool2008@gmail.com"
+              method="POST">
+
+              <h2 class="headline-1 text-center">Online Query</h2>
+
+              <p class="form-text text-center">
+                Admission application <a href="tel:+918363655600" class="link">+91 8363655600</a>
+                or fill out the application form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+
+                <input type="email" name="email" placeholder="Your email" autocomplete="off" class="input-field">
+
+              </div>
+
+
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book an appointment</span>
+
+                <span class="text text-2" aria-hidden="true">Book an appointment</span>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Moh. Ganesh Ganj, Puranpur
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">jrpschool2008@gmail.com</a>
+
+          <a href="tel:+918363655600" class="body-4 contact-link">Enquiry : +91 8363655600</a>
+
+          <p class="body-4">
+            Office timings : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Enquiry</p>
+          <br>
+
+          <form action="https://formsubmit.co/jrpschool2008@gmail.com" method="POST" class="input-wrapper">
+
+
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Enquiry</span>
+
+              <span class="text text-2" aria-hidden="true">Enquiry</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="gallery.html" class="label-2 footer-link hover-underline">Photo Gallery</a>
+          </li>
+
+          <li>
+            <a href="index.html#enquiry" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    Fancybox.bind("[data-fancybox]", {});
+  </script>
+
+
+</body>
+
+</html>

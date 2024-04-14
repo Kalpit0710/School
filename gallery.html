@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>J. R. Preparatory School</title>
+  <meta name="title" content="J. R. Preparatory School">
+  <meta name="description" content="This is a school website made by kalpit">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./image2vector.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+  <link rel="stylesheet" href="./dist/output.css" />
+
+  <!-- Start - Fancybox Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="top"
+  class="dark:bg-black bg-white h-screen text-black dark:text-white px-5 md:px-20 opacity-0 animate-fade-in transition duration-500">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">J. R. Preparatory School</p>
+  </div>
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Moh. Ganeshganj, Puranpur, 262122
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+91 8363655600" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 8363655600</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:jrpschool2008@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">jrpschool2008@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./image2vector.svg" width="100" height="100" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="gallery.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Photo Gallery</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#enquiry" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Moh. Ganeshganj, Puranpur,
+            Pilibhit, 262122
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:jrpschool2008@gmail.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Call us</p>
+
+          <a href="tel:+91 8363655600" class="body-1 contact-number hover-underline">
+            +91 8363655600
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#enquiry" class="btn btn-secondary">
+        <span class="text text-1">Admission Open</span>
+
+        <span class="text text-2" aria-hidden="true">Admission Open</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="text-center" aria-label="home" id="home">
+        <div class="container mx-auto">
+          <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+          <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+          <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+          <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+          <h1 class="text-4xl pt-10 pb-8 font-bold"> </h1>
+          <section class="text-neutral-700">
+            <div class="container w-full">
+              <div class="flex flex-wrap w-full">
+                <div class="flex w-full md:w-1/2 flex-wrap">
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/1.jpg
+                        data-fancybox=" gallery">
+                        <img alt="a person standing in front of a rock formation"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/1.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/2.jpg" data-fancybox="gallery">
+                        <img alt="a cat laying on top of a sidewalk next to the ocean"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/2.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/3.jpg" data-fancybox="gallery">
+                        <img alt="a man standing on a beach next to the ocean"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/3.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex w-full md:w-1/2 flex-wrap">
+                  <div class="w-full p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/4.jpg" data-fancybox="gallery">
+                        <img alt="a snow covered mountain with trees on the side"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/4.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/5.jpg" data-fancybox="gallery">
+                        <img alt="a branch of a plant floating in a body of water"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/5.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/6.jpg" data-fancybox="gallery">
+                        <img alt="a blue sky with a lot of red and orange clouds"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/6.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/7.jpg" data-fancybox="gallery">
+                        <img alt="a view of the ocean from the top of a hill"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/7.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/8.jpg" data-fancybox="gallery">
+                        <img alt="a pheasant flying in the sky with its wings spread"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/8.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex w-full md:w-1/2 flex-wrap">
+                  <div class="w-full p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/9.jpg" data-fancybox="gallery">
+                        <img alt="a statue of a man next to a statue of a woman"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/9.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/10.jpg" data-fancybox="gallery">
+                        <img alt="a city street with tall buildings in the background"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/10.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/11.jpg" data-fancybox="gallery">
+                        <img alt="25 de abril bridge spanning over Tagus river"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/11.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/12.jpg" data-fancybox="gallery">
+                        <img alt="a lot of lanterns floating in the air at night"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/12.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/13.jpg" data-fancybox="gallery">
+                        <img alt="a flock of seaguls flying over a body of water"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/13.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex w-full md:w-1/2 flex-wrap">
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/14.jpg" data-fancybox="gallery">
+                        <img alt="a statue of a headless angel"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/14.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/15.jpg" data-fancybox="gallery">
+                        <img alt="Monument to the Discoveries viewed from top to bottom"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/15.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full p-1">
+                    <div class="overflow-hidden h-full p-1">
+                      <a href="./assets/images/gallery/16.jpg" data-fancybox="gallery">
+                        <img
+                          alt="a group of people walking along the museum of art, architecture and technology of lisbon next to the Tagus river"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/16.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex w-full md:w-1/2 flex-wrap">
+                  <!-- New images start here -->
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/17.jpg" data-fancybox="gallery">
+                        <img alt="description of image"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/17.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/18.jpg" data-fancybox="gallery">
+                        <img alt="description of image"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/18.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/19.jpg" data-fancybox="gallery">
+                        <img alt="description of image"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/19.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-1/2 p-1">
+                    <div class="overflow-hidden h-full w-full">
+                      <a href="./assets/images/gallery/20.jpg" data-fancybox="gallery">
+                        <img alt="description of image"
+                          class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+                          src="./assets/images/gallery/20.jpg" />
+                      </a>
+                    </div>
+                  </div>
+                  
+                </div>
+
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #enquiry
+      -->
+
+      <section class="enquiry aria-labelledby=" enquiry-label" id="enquiry">
+        <div class="container">
+
+          <div class="form enquiry-form bg-black-10">
+
+            <form id="galleryForm" class="form-left" action="https://formsubmit.co/jrpschool2008@gmail.com"
+              method="POST">
+
+              <h2 class="headline-1 text-center">Online Query</h2>
+
+              <p class="form-text text-center">
+                Admission application <a href="tel:+918363655600" class="link">+91 8363655600</a>
+                or fill out the application form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+
+                <input type="email" name="email" placeholder="Your email" autocomplete="off" class="input-field">
+
+              </div>
+
+
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book an appointment</span>
+
+                <span class="text text-2" aria-hidden="true">Book an appointment</span>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Moh. Ganesh Ganj, Puranpur
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">jrpschool2008@gmail.com</a>
+
+          <a href="tel:+918363655600" class="body-4 contact-link">Enquiry : +91 8363655600</a>
+
+          <p class="body-4">
+            Office timings : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Enquiry</p>
+          <br>
+
+          <form action="https://formsubmit.co/jrpschool2008@gmail.com" method="POST" class="input-wrapper">
+
+
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Enquiry</span>
+
+              <span class="text text-2" aria-hidden="true">Enquiry</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="gallery.html" class="label-2 footer-link hover-underline">Photo Gallery</a>
+          </li>
+
+          <li>
+            <a href="index.html#enquiry" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    Fancybox.bind("[data-fancybox]", {});
+  </script>
+  <script src="dist/fade_in.js"></script>
+  <script src="dist/menu.js"></script>
+
+</body>
+
+</html>
